@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+
+
+.menu ul li { display: inline; }/*o ponto acessa a classe, coloca na horizontal a*/
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu ul li a {
+	padding: 2px 10px;
+ 
+	/* visual do link */
+	background-color:#257ce7;
+	color: black;
+	text-decoration: none;
+	border-bottom:3px solid #EDEDED;
+}
+
+
+.menu ul li a:hover {/* link muda quando passar o mouse em cima*/
+	background-color:#00ff00;/* cor de fundo quando o mouse passar em cima*/
+	color: #6D6D6D;
+	border-bottom:3px solid #FFFF64;
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<title>Cadastro de Produtos</title>
+
+	<link rel="stylesheet" href="cadastroCliente.css"> 
+	<script src="ClientePresenter.js"></script>
+	
+	</script>
+</head>
+<body>
+
+	<form action="servlet" method="post">
+		
+		<h3 align="left">Cadastro de Produto</h3> 
+
+	<div class="divEsq"  >
+		
+			<br>
+			<label>Nome</label>
+			<input class="txfNome" id="idnome" type ="text" />
+			</br>
+			
+			<br>
+			<label>Valor</label>
+			<input class= "tfvalor" id="idtelefone" type ="text" maxlength="10" />
+			</br>
+			
+		
+			
+			<br>
+			<input class="botao" type="submit" value="Salvar"  >
+			</br>
+			
+	</div>	
+	
+	<div class="divDir" >
+	
+			<br>
+			<label>Busca</label>
+			<input class="txfBusca" id="idnome" type ="text" />
+			</br>
+	
+			<br></br>
+		
+			<table border="1" cellpadding="1" cellspacing="1" style="width:80%;background-color:#FFFFFF;border-collapse:collapse;border:1px solid #050F11">
+				<tbody>
+					<tr>
+						<td>Produto</td>
+						<td>Valor</td>
+					</tr>
+					<tr>
+						<td>Cell 3</td>
+						<td>Cell 4</td>
+					</tr>
+					<tr>
+						<td>Cell 5</td>
+						<td>Cell 6</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<br>
+			<input class="botao" type="submit" value="Editar"  >
+			<input class="botaoExcluir" type="submit" value="Excluir"  >
+			</br>
+			
+	</div>
+	
+	
+			
+	</form>
+	
+</body>
+</html>

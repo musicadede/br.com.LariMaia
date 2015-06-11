@@ -7,4 +7,46 @@ input.nome, input.telefone, input.email{
 	
 }
 
+h3{
+	left:10px;
+}
 
+input.botao{
+	position: absolute;
+	left:10px;
+	horizontal-align:left;
+}
+
+input.botaoExcluir{
+	position: absolute;
+	left:70px;
+	horizontal-align:left;
+}
+
+.divEsq{
+	border:1px solid #050F11;
+	height:150px;
+	width:220px;
+	position:absolute;
+	top:60px;
+}
+
+.divDir{
+	width:250px;
+	position:absolute;
+	left: 250px;
+	top:60px;
+	border:1px solid #050F11;
+
+}
+
+.txfBusca .tfValor{
+	left:40px;
+}
+
+
+form{
+	width:500px;
+	height:250px;
+	border:1px solid #050F11;
+}

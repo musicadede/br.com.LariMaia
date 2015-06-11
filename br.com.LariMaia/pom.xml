@@ -1,8 +1,46 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.LariMaia</groupId>
-  <artifactId>br.com.LariMaia</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
-  <name>br.LariMaia</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jboss.org/schema/seam/core http://jboss.org/schema/seam/core-2.3.xsd
+
+                       http://jboss.org/schema/seam/persistence http://jboss.org/schema/seam/persistence-2.3.xsd
+
+                       http://jboss.org/schema/seam/security http://jboss.org/schema/seam/security-2.3.xsd
+
+                       http://jboss.org/schema/seam/theme http://jboss.org/schema/seam/theme-2.3.xsd
+
+                       http://jboss.org/schema/seam/cache http://jboss.org/schema/seam/cache-2.3.xsd
+
+                       http://jboss.org/schema/seam/web http://jboss.org/schema/seam/web-2.3.xsd
+
+                       http://jboss.org/schema/seam/components http://jboss.org/schema/seam/components-2.3.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.LariMaia</groupId>
+	<artifactId>br.com.LariMaia</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>br.LariMaia</name>
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-server</artifactId>
+			<version>8.2.0.Final</version>
+		</dependency>
+
+
+	</dependencies>
+
+
+
 </project>
