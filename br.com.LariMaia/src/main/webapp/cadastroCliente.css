@@ -11,7 +11,18 @@ h3{
 	left:10px;
 }
 
-input.botao{
+
+input {
+	bottom:5px;
+}
+
+ input.salvar{
+	position: absolute;
+	left:10px;
+	/* horizontal-align:left; */
+}
+
+input.botaoEditar{
 	position: absolute;
 	left:10px;
 	horizontal-align:left;
@@ -20,11 +31,12 @@ input.botao{
 input.botaoExcluir{
 	position: absolute;
 	left:70px;
+	
 	horizontal-align:left;
 }
 
 .divEsq{
-	border:1px solid #050F11;
+	/* border:1px solid #050F11; */
 	height:150px;
 	width:220px;
 	position:absolute;
@@ -36,17 +48,22 @@ input.botaoExcluir{
 	position:absolute;
 	left: 250px;
 	top:60px;
-	border:1px solid #050F11;
+ 	border:1px solid #050F11; 
 
 }
 
 .txfBusca .tfValor{
-	left:40px;
+	left:80px;
 }
 
+table{
+	
+	left:140px;
+}
 
 form{
 	width:500px;
 	height:250px;
 	border:1px solid #050F11;
 }
+

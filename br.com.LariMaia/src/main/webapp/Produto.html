@@ -6,8 +6,12 @@
 <title>Cadastro de Produtos</title>
 
 	<link rel="stylesheet" href="cadastroCliente.css"> 
-	<script src="ClientePresenter.js"></script>
+	<script src="FuncoesJavaScript.js"></script>
 	
+	
+	<Script>$( "#txBusca" ).keyup(function() {
+		  alert( "Handler for .keyup() called." );
+	});
 	</script>
 </head>
 <body>
@@ -31,7 +35,7 @@
 		
 			
 			<br>
-			<input class="botao" type="submit" value="Salvar"  >
+			<input class="salvar" type="submit" value="Salvar"  >
 			</br>
 			
 	</div>	
@@ -40,12 +44,12 @@
 	
 			<br>
 			<label>Busca</label>
-			<input class="txfBusca" id="idnome" type ="text" />
+			<input id="txBusca" class="txfBusca" id="idnome" type ="text" />
 			</br>
 	
 			<br></br>
 		
-			<table border="1" cellpadding="1" cellspacing="1" style="width:80%;background-color:#FFFFFF;border-collapse:collapse;border:1px solid #050F11">
+			<table class="tabela" border="1" cellpadding="1" cellspacing="1" style="width:80%;background-color:#FFFFFF;border-collapse:collapse;border:1px solid #050F11">
 				<tbody>
 					<tr>
 						<td>Produto</td>
@@ -63,7 +67,7 @@
 			</table>
 			
 			<br>
-			<input class="botao" type="submit" value="Editar"  >
+			<input class="botaoEditar" type="submit" value="Editar"  >
 			<input class="botaoExcluir" type="submit" value="Excluir"  >
 			</br>
 			
